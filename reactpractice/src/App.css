@@ -28,9 +28,20 @@ section{
 /* body{
   background: rgb(23, 22, 24);
 } */
-.first{
+.blue{
   background: blue;
 }
+.red{
+  background: red;
+}
+.cyan{
+  background: cyan;
+}
+.green{
+  background: lightgreen;
+}
+
+
 .curve{
   position: absolute;
   height: 225px;

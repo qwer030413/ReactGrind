@@ -13,7 +13,7 @@ export default function App() {
     
     <div className = "web">
       <body>
-        <section className='first'>
+        <section className='blue'>
           <Hello name = "chris" />
           <Randomwords  />
           <div class = "curve"></div>
@@ -22,7 +22,7 @@ export default function App() {
           <Hello name = "chris" />
           <Randomwords  />
         </section>
-        <section>
+        <section className='cyan'>
           <Hello name = "chris" />
           <Randomwords  />
         </section>
@@ -30,7 +30,7 @@ export default function App() {
           <Hello name = "chris" />
           <Randomwords  />
         </section>
-        <section>
+        <section className='green'>
           <Hello name = "chris" />
           <Randomwords  />
         </section>
