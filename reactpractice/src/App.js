@@ -1,25 +1,60 @@
-import logo from './logo.svg';
+//hello is the function name from the new file, this is how we do components
+import Hello from './components/new.js';
+import Randomwords from './components/body.js';
 import './App.css';
+import { render } from '@testing-library/react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+export default function App() {
+  
+  return(
+    <>
+    
+    
+    <div className = "web">
+      <body>
+        <section className='first'>
+          <Hello name = "chris" />
+          <Randomwords  />
+          <div class = "curve"></div>
+        </section>
+        <section>
+          <Hello name = "chris" />
+          <Randomwords  />
+        </section>
+        <section>
+          <Hello name = "chris" />
+          <Randomwords  />
+        </section>
+        <section>
+          <Hello name = "chris" />
+          <Randomwords  />
+        </section>
+        <section>
+          <Hello name = "chris" />
+          <Randomwords  />
+        </section>
+      
+      
+
+
+
+      </body>
+    
+    
     </div>
+    
+    
+    
+    </>
+    
+    
+    
+    
+    
   );
+
+  
 }
 
-export default App;
+
