@@ -13,7 +13,7 @@ export default function App() {
     
     <div className = "web">
       <body>
-        <section className='blue'>
+        <section className='blue' >
           <Hello name = "chris" />
           <Randomwords  />
           <div class = "curve"></div>
