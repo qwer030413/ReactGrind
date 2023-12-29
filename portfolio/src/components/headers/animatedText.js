@@ -9,7 +9,7 @@ function Anitext(value){
 
     return(
         
-            <div className="header">
+            <div className={value.class}>
                 {sentance.map((letter, index) =>{
                     return(
                         // <motion.span key = {index}  className = "span" animate={controls} onMouseOver={() => animation}>
