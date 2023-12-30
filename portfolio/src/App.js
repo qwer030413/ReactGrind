@@ -6,7 +6,7 @@ import Image from './components/Images/image.js';
 function App() {
   return (
     
-    <div>
+    
       
       <body>
         <Tabs />
@@ -16,7 +16,9 @@ function App() {
           </div>
 
           <div className='intro'>
-            <Anitext className = "a" text = "My name is Chris Park" class = "header"/>
+            <Anitext text = "My name is Chris Park" class = "header"/>
+            <Anitext text = "I am a sophomore at San Diego Miramar College" class = "small"/>
+            
           </div>
           
         </div>
@@ -27,7 +29,7 @@ function App() {
       </body>
       
 
-    </div>
+    
 
     
   );

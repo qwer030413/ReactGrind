@@ -7,16 +7,17 @@ body{
   display: flex;
   text-align: center;
   color: white;
-  gap: 4rm;
 
 }
 .intro{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  justify-content: center;
+  gap: 2rem;
   min-width: 100px;
 }
 .picture{
-  margin-right: 1000px;
+  margin-right: 100px;
 }
 
-/* .picture{
-  color: white;
-} */
