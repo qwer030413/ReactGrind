@@ -4,7 +4,6 @@ import Randomwords from './components/body.js';
 import './App.css';
 import Adreet from "./components/image.js";
 import { useState } from 'react';
-import Popup from './components/popup.jsx';
 import {motion, transform} from "framer-motion";
 
 // import Mbutton from "./components/motionbtn.js";
@@ -53,14 +52,11 @@ export default function App() {
             whileHover={{scale: 1.1}}
             whileTap={{scale: 0.9,}}
             //on click, run close function of popupOpen is true, run open if otherwise
-            onClick={
-                // console.log("clicked!")
-                () => (popupOpen ? close() : open())
-            }
+            
             className='mbtn'>Click Me
             </motion.button>
 
-            {popupOpen && <Popup popupOpen = {popupOpen} handleClose={close} />}
+            {/* {popupOpen && <Popup popupOpen = {popupOpen} handleClose={close} />} */}
 
         </div>
         </section>

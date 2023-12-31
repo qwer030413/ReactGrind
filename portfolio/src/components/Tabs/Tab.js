@@ -4,25 +4,29 @@ import './styleTabs.css';
 import Bouncebtn from '../buttons/bounce';
 import LinkedIn from '../Images/linked';
 import Mbutton from "../buttons/motion";
+import Aboutme from "../../pages/aboutme.js";
+import App from "../../App.js";
+import ContactMe from "../../pages/contactme.js";
+
+
+
 const Tabs = () => {
-    const [page, setPage] = useState(1);
-  return (
+
+  return (  
     <nav className = "nav">
-        <a className="name">Chris Park</a>
+        <a className="name" href="/">Chris Park</a>
         <div className="center">
           <div className="tabcontainer"> 
-              <ul>
-                <li>
-                    <Bouncebtn text = "About Me" h = "./tab.js" />
-                </li>
-                <li>
-                    <Bouncebtn text = "Projects" h = "./Projects.js" />
-                </li>
-                <li>
-                    <Bouncebtn text = "Contact me" h = "./tab.js" />
-                </li>
-              </ul>
+            
+              
+               <Bouncebtn text = "About Me"  h = "../../pages/aboutme.js" />
+               <Bouncebtn text = "Projects" h = "../../pages/Projects.js" />
+               <Bouncebtn text = "Contact me" h = "../../pages/contactme.js" />
+              
+               
 
+               
+               
 
           </div>
             

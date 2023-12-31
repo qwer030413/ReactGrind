@@ -1,6 +1,10 @@
 .image{
     width: 700px;
+    margin-left: 30px;
 }
 .linkicon{
     width: 100px;
+}
+.aboutpic{
+    width: 600px;
 }
