@@ -12,10 +12,12 @@ function Anitext(value){
             <div className={value.class}>
                 {sentance.map((letter, index) =>{
                     return(
+                        <text>
+                                <TextSpan key = {index} className = "span">
+                                    {letter  === " " ? "\u00A0" : letter}
+                                </TextSpan>
+                        </text>
                         
-                        <TextSpan key = {index} className = "span">
-                            {letter  === " " ? "\u00A0" : letter}
-                        </TextSpan>
                     )
                 
                     })}

@@ -36,3 +36,13 @@
 .span{
     display: inline-block;
 }
+.Projects{
+    font-size: 80px;
+    color: white;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    max-height: 100px;
+    align-items: center;
+
+
+}

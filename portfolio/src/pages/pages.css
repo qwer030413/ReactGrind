@@ -3,3 +3,44 @@
     padding: 30px;
     gap: 3rem;
 }
+
+
+
+.contents{
+    display: flex;
+    text-align: center;
+    color: white;
+  
+  }
+.intro{
+display: flex;
+flex-direction: column;
+align-items:start;
+justify-content: center;
+gap: 2rem;
+min-width: 100px;
+}
+.picture{
+margin-right: 100px;
+}
+  
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagescontainer{
+    display: flex;
+}
+.Projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 40px;
+
+}
+

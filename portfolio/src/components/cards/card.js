@@ -12,11 +12,11 @@ function Card(value){
                 <div className='Name'>
                     <text>{value.text}</text>
                 </div>
-                <div className = "dates">
-                    <text>{value.date}</text>
-                </div>
                 <div className='description'>
                     <text>{value.description}</text>
+                </div>
+                <div className = "used">
+                    <text>{value.used}</text>
                 </div>
             </div>
             

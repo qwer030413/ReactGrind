@@ -3,6 +3,7 @@ import Image from '../components/Images/image.js';
 
 function Home(){
     return(
+      
         <div className='contents'>
             <div className='picture'>
               <Image />
