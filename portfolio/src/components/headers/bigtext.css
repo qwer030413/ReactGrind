@@ -28,8 +28,8 @@
     display: inline-block;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto Slab', serif;
-    align-items: center;
 
+    text-align: start;
 
 
 }

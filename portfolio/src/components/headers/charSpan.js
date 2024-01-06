@@ -1,5 +1,5 @@
 import './bigtext.css';
-import { motion, transform, useAnimationControls } from "framer-motion"
+import { color, motion, transform, useAnimationControls } from "framer-motion"
 
 const TextSpan = ({children}) =>{
     const controls = useAnimationControls();
@@ -16,15 +16,15 @@ const TextSpan = ({children}) =>{
                 
             ],
 
-            // ,transition: {
-            //     times:[0,0.4,0.6,0.7,0.9,0.9]
-            // }
+            // transition: { 
+            //     times:[0.9,0.9,0.9,0.9,0.9,0.9]
+            // },
         })
         
     }
 
     return(
-        <motion.span className = "span" whileHover={{scale: 1.1}} animate = {controls}
+        <motion.span className = "span" whileHover={{scale: 1.1, color:"#00A6ED", transition: "0.5s"}} animate = {controls}
         onMouseOver={() => animation()}
         >
 

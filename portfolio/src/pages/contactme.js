@@ -14,7 +14,10 @@ function ContactMe(){
             </div>
             <div className='pagescontainer'>
                 <ContactUs />
-                <Earth />
+                <div className='earthcontainer'>
+                    <Earth />
+                </div>
+                
 
             </div>
             

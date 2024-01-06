@@ -4,7 +4,8 @@
     font-weight: 700;
     color: rgb(32, 26, 26);
     padding: 0.5em 1em;
-    background: rgb(165, 145, 244);
+    /* background: rgb(165, 145, 244); */
+    background: #00A6ED;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto Slab', serif;
 
@@ -34,7 +35,7 @@
     font-weight: 700;
     color: rgb(32, 26, 26);
     padding: 0.5em 1em;
-    background: rgb(165, 145, 244);
+    background: #00A6ED;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto Slab', serif;
 

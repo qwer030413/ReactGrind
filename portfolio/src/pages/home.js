@@ -10,7 +10,7 @@ function Home(){
             </div>
 
             <div className='intro'>
-              <Anitext text = "My name is Chris Park" class = "header"/>
+              <Anitext text = "My name is Seojin Park" class = "header"/>
               <Anitext text = "I am a sophomore at San Diego Miramar College" class = "small"/>
               
             </div>
