@@ -10,6 +10,8 @@ import Home from './pages/home.js';
 
 
 function App() {
+  const navigate = useNavigate();
+
   let component;
     switch(window.location.pathname)
     {
@@ -22,16 +24,15 @@ function App() {
       case "/pages/aboutme.js":
         component = <Aboutme />
         break;
-      case "/ReactGrind/":
+      case "/ReactGrind":
         component = <Home />
         break;
 
-      
-      
     }
     // const routes = createRoutesFromElements(
     //   <Route>
     //     <Route path = "/" element = {<Home />}/>
+    //     <Route path = "/pages/contactme.js" element = {<Aboutme />}/>
     //   </Route>
     // )
 

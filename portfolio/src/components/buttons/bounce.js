@@ -6,9 +6,11 @@ function Bouncebtn(value){
 
     return(
         <a href = {value.h}>
-            <button className='btn'>{value.text}</button>
+            <button className='btn' onClick={() => value.click}>{value.text}</button>
 
         </a>
+
+
             
         
             
