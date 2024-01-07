@@ -14,7 +14,7 @@ const Tabs = () => {
 
   return (  
     <nav className = "nav">
-        <a className="name" href="/">Seojin Park</a>
+        <a className="name" href="/ReactGrind">Seojin Park</a>
         <div className="center">
           <div className="tabcontainer"> 
             

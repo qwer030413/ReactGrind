@@ -22,7 +22,7 @@ function App() {
     case "/pages/aboutme.js":
       component = <Aboutme />
       break;
-    case "/":
+    case "/ReactGrind":
       component = <Home />
       break;
     
