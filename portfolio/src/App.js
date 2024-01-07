@@ -11,41 +11,42 @@ import Home from './pages/home.js';
 
 function App() {
   let component;
-  switch(window.location.pathname)
-  {
-    case "/pages/contactme.js":
-      component = <ContactMe />
-      break;
-    case "/pages/Projects.js":
-      component = <Projects />
-      break;
-    case "/pages/aboutme.js":
-      component = <Aboutme />
-      break;
-    case "/ReactGrind":
-      component = <Home />
-      break;
-    
-  }
+    switch(window.location.pathname)
+    {
+      case "/pages/contactme.js":
+        component = <ContactMe />
+        break;
+      case "/pages/Projects.js":
+        component = <Projects />
+        break;
+      case "/pages/aboutme.js":
+        component = <Aboutme />
+        break;
+      case "/ReactGrind":
+        component = <Home />
+        break;
+
+      
+      
+    }
+
+  
   return (
+    <>
+    <body>
+        <Tabs />
+        {component}   
+      </body>
+      
     
+    
+    
+    
+    </>
     
       
-      <body>
-        <Tabs />
-        {component}
-          
-        
-        
-                
-                
-             
-        
-        
-        
-
-      </body>
-      // <Home />
+      
+      
 
     
 

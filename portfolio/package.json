@@ -1,6 +1,7 @@
 {
-  "homepage": "https://qwer030413.github.io/ReactGrind/",
+  
   "name": "portfolio",
+  "homepage": "https://qwer030413.github.io/ReactGrind/#/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
