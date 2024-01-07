@@ -19,7 +19,9 @@ const Tabs = () => {
           <div className="tabcontainer"> 
             
               
-               <Bouncebtn text = "About Me"  h = "../../pages/aboutme.js" />
+               {/* <Bouncebtn text = "About Me"  h = "../../pages/aboutme.js" /> */}
+               <Bouncebtn text = "About Me"  h = "https://qwer030413.github.io/pages/aboutme.js" />
+
                <Bouncebtn text = "Projects" h = "../../pages/Projects.js" />
                <Bouncebtn text = "Contact me" h = "../../pages/contactme.js" />
               
