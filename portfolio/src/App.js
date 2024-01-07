@@ -2,7 +2,7 @@ import './App.css';
 import Tabs from './components/Tabs/Tab.js';
 import Anitext from './components/headers/animatedText.js'
 import Image from './components/Images/image.js';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useNavigate, createRoutesFromElements } from "react-router-dom";
 import ContactMe from "./pages/contactme.js";
 import Projects from './pages/Projects.js';
 import Aboutme from './pages/aboutme.js';
@@ -29,6 +29,11 @@ function App() {
       
       
     }
+    // const routes = createRoutesFromElements(
+    //   <Route>
+    //     <Route path = "/" element = {<Home />}/>
+    //   </Route>
+    // )
 
   
   return (
