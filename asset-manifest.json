@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/chrisp030413.org/static/css/main.72f6546d.css",
-    "main.js": "/chrisp030413.org/static/js/main.6cd8de8c.js",
-    "static/js/787.7da95b79.chunk.js": "/chrisp030413.org/static/js/787.7da95b79.chunk.js",
-    "static/media/realaboutme.jpg": "/chrisp030413.org/static/media/realaboutme.7d25480227193e667189.jpg",
-    "static/media/aboutmepic.jpg": "/chrisp030413.org/static/media/aboutmepic.59fa59a28f96f7c7eb98.jpg",
-    "static/media/weatherapp.jpg": "/chrisp030413.org/static/media/weatherapp.37255b55995baa16eefa.jpg",
-    "static/media/Earth.png": "/chrisp030413.org/static/media/Earth.56c2c6aaee38a7c82393.png",
-    "static/media/jet.jpg": "/chrisp030413.org/static/media/jet.ecbfa789ed8f3b4d0049.jpg",
-    "static/media/ResumeNew.pdf": "/chrisp030413.org/static/media/ResumeNew.77de7ca7f27a181cef8a.pdf",
-    "static/media/todolist.jpg": "/chrisp030413.org/static/media/todolist.67b8b7ebc55928ca0c87.jpg",
-    "index.html": "/chrisp030413.org/index.html",
-    "main.72f6546d.css.map": "/chrisp030413.org/static/css/main.72f6546d.css.map",
-    "main.6cd8de8c.js.map": "/chrisp030413.org/static/js/main.6cd8de8c.js.map",
-    "787.7da95b79.chunk.js.map": "/chrisp030413.org/static/js/787.7da95b79.chunk.js.map"
+    "main.css": "/static/css/main.72f6546d.css",
+    "main.js": "/static/js/main.94c6431b.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/realaboutme.jpg": "/static/media/realaboutme.7d25480227193e667189.jpg",
+    "static/media/aboutmepic.jpg": "/static/media/aboutmepic.59fa59a28f96f7c7eb98.jpg",
+    "static/media/weatherapp.jpg": "/static/media/weatherapp.37255b55995baa16eefa.jpg",
+    "static/media/Earth.png": "/static/media/Earth.56c2c6aaee38a7c82393.png",
+    "static/media/jet.jpg": "/static/media/jet.ecbfa789ed8f3b4d0049.jpg",
+    "static/media/ResumeNew.pdf": "/static/media/ResumeNew.77de7ca7f27a181cef8a.pdf",
+    "static/media/todolist.jpg": "/static/media/todolist.67b8b7ebc55928ca0c87.jpg",
+    "index.html": "/index.html",
+    "main.72f6546d.css.map": "/static/css/main.72f6546d.css.map",
+    "main.94c6431b.js.map": "/static/js/main.94c6431b.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72f6546d.css",
-    "static/js/main.6cd8de8c.js"
+    "static/js/main.94c6431b.js"
   ]
 }
