@@ -6,7 +6,7 @@ function Aboutme(){
     // MAKE SKILLS TAB
     return(
         <body>
-            <div className = 'contents'>
+            <div className = 'aboutme'>
                 <div className='picture'>
                 <Aboutpic />
                 </div>

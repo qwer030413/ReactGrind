@@ -1,10 +1,18 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css'
 import Anitext from '../headers/animatedText';
 import Mnormal from '../buttons/motion';
+import Success from '../alerts/success';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export const ContactUs = () => {
+    
+    const [pressed, setPressed] = useState(false);
+
     const form = useRef();
+
   
     const sendEmail = (e) => {
       e.preventDefault();
@@ -12,19 +20,20 @@ export const ContactUs = () => {
       emailjs.sendForm('service_sagmm5r', 'template_ebky5f9', form.current, '14UvcvDxKfecep_yS')
         .then((result) => {
             console.log(result.text);
+            setPressed(true);
+          
+              
+            document.getElementById("fn").value = "";
+            document.getElementById("em").value = "";
+            document.getElementById("msg").value = "";
+
+
         }, (error) => {
             console.log(error.text);
         });
     };
-    const submit = () => {
-        return(<input type="submit" value="Send" className='submit'/>);
-    };
-    // function sent(){
-    //     alert('sent!');
-    //     document.getElementById("fn").value = "";
-    //     document.getElementById("em").value = "";
-    //     document.getElementById("msg").value = "";
-    // }
+   
+    
   
     return (
     <div>
@@ -51,7 +60,9 @@ export const ContactUs = () => {
                 
                 
                 <div className='button'>
-                    <input type="submit" value="Send" className='submit'/>
+                    {/* <input type="submit" value="Send" className='submit' /> */}
+                    <Success />
+                    {/* <button type="submit" value="Send" className='submit' onClick={notify}>Send</button> */}
                 </div>
 
             </form>

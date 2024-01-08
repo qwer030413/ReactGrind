@@ -125,6 +125,9 @@ input:focus ~.labels, input:not(:placeholder-shown) ~.labels{
 .submit:hover{
     scale: 1.1;
 }
+.submit:active{
+    scale: 0.9;
+}
 
 
 .button{
