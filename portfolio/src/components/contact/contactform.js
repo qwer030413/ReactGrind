@@ -19,12 +19,12 @@ export const ContactUs = () => {
     const submit = () => {
         return(<input type="submit" value="Send" className='submit'/>);
     };
-    function sent(){
-        alert('sent!');
-        document.getElementById("fn").value = "";
-        document.getElementById("em").value = "";
-        document.getElementById("msg").value = "";
-    }
+    // function sent(){
+    //     alert('sent!');
+    //     document.getElementById("fn").value = "";
+    //     document.getElementById("em").value = "";
+    //     document.getElementById("msg").value = "";
+    // }
   
     return (
     <div>
@@ -51,7 +51,7 @@ export const ContactUs = () => {
                 
                 
                 <div className='button'>
-                    <input type="submit" value="Send" className='submit' onClick={sent}/>
+                    <input type="submit" value="Send" className='submit'/>
                 </div>
 
             </form>
