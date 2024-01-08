@@ -10,7 +10,7 @@ import Home from './pages/home.js';
 
 
 function App() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   let component;
     switch(window.location.pathname)

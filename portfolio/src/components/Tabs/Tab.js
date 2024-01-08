@@ -7,12 +7,12 @@ import Mbutton from "../buttons/motion";
 import Aboutme from "../../pages/aboutme.js";
 import App from "../../App.js";
 import ContactMe from "../../pages/contactme.js";
-import { Routes, Route, useNavigate, Navigate } from 'react-router-dom';
+import { Routes, Route, } from 'react-router-dom';
 
 
 
 const Tabs = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (  
     <nav className = "nav">
