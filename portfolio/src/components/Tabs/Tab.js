@@ -8,6 +8,7 @@ import Aboutme from "../../pages/aboutme.js";
 import App from "../../App.js";
 import ContactMe from "../../pages/contactme.js";
 import { Routes, Route, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
@@ -16,7 +17,8 @@ const Tabs = () => {
 
   return (  
     <nav className = "nav">
-        <a className="name" href="/">Seojin Park</a>
+        {/* <a className="name" href="/">Seojin Park</a> */}
+        <Link className = "name" to= "/">Seojin Park</Link>
         <div className="center">
           <div className="tabcontainer"> 
             
@@ -26,7 +28,7 @@ const Tabs = () => {
 
                {/* <Bouncebtn text = "About Me" click = {navigate('../../pages/aboutme.js')}/> */}
 
-               <Bouncebtn text = "About Me"  h = "/pages/aboutme.js" />
+               <Bouncebtn text = "About Me"  h = "/a" />
                <Bouncebtn text = "Projects" h = "/pages/Projects.js" />
                <Bouncebtn text = "Contact me" h = "/pages/contactme.js" />
                {/* <Bouncebtn text = "About Me"  h = "../../pages/aboutme.js" />
