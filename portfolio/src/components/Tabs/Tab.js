@@ -21,14 +21,17 @@ const Tabs = () => {
           <div className="tabcontainer"> 
             
               
-               <Bouncebtn text = "About Me"  h = "../../pages/aboutme.js" />
-               {/* <Bouncebtn text = "About Me"  h = "https://qwer030413.github.io/pages/aboutme.js" /> */}
+               
+               {/* <Bouncebtn text = "About Me" /> */}
 
                {/* <Bouncebtn text = "About Me" click = {navigate('../../pages/aboutme.js')}/> */}
 
-               {/* <Bouncebtn text = "About Me"  h = "/pages/aboutme.js" /> */}
+               <Bouncebtn text = "About Me"  h = "/ReactGrind/pages/aboutme.js" />
+               <Bouncebtn text = "Projects" h = "/ReactGrind/pages/Projects.js" />
+               <Bouncebtn text = "Contact me" h = "/ReactGrind/pages/contactme.js" />
+               {/* <Bouncebtn text = "About Me"  h = "../../pages/aboutme.js" />
                <Bouncebtn text = "Projects" h = "../../pages/Projects.js" />
-               <Bouncebtn text = "Contact me" h = "../../pages/contactme.js" />
+               <Bouncebtn text = "Contact me" h = "../../pages/contactme.js" /> */}
                 {/* <Routes>
                   <Route path = "../../pages/aboutme.js" element = {<Aboutme/>}/>
                 </Routes> */}

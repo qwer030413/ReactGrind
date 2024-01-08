@@ -15,13 +15,13 @@ function App() {
   let component;
     switch(window.location.pathname)
     {
-      case "/pages/contactme.js":
+      case "/ReactGrind/pages/contactme.js":
         component = <ContactMe />
         break;
-      case "/pages/Projects.js":
+      case "/ReactGrind/pages/Projects.js":
         component = <Projects />
         break;
-      case "/pages/aboutme.js":
+      case "/ReactGrind/pages/aboutme.js":
         component = <Aboutme />
         break;
       case "/ReactGrind":
