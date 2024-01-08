@@ -40,7 +40,7 @@ function App() {
         {/* {component}    */}
         <Routes>
           <Route path = "/" element = {<Home />} />
-          <Route path = "/a" element = {<Aboutme />} />
+          <Route path = "/pages/aboutme.js" element = {<Aboutme />} />
           <Route path = "/pages/Projects.js" element = {<Projects />} />
           <Route path = "/pages/contactme.js" element = {<ContactMe />} />
         </Routes>
