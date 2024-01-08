@@ -18,7 +18,7 @@ const Tabs = () => {
   return (  
     <nav className = "nav">
         {/* <a className="name" href="/">Seojin Park</a> */}
-        <Link className = "name" to= "/ReactGrind/">Seojin Park</Link>
+        <Link className = "name" to= "/">Seojin Park</Link>
         <div className="center">
           <div className="tabcontainer"> 
             

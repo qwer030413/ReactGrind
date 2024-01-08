@@ -12,7 +12,7 @@ function Bouncebtn(value){
         // </a>
 
         <Link to= {value.h}>
-            <button className='btn' onClick={() => value.click}>{value.text}</button>
+            <button className='btn' >{value.text}</button>
         </Link>
 
 
