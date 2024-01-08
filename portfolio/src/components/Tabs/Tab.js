@@ -16,7 +16,7 @@ const Tabs = () => {
 
   return (  
     <nav className = "nav">
-        <a className="name" href="/ReactGrind">Seojin Park</a>
+        <a className="name" href="/">Seojin Park</a>
         <div className="center">
           <div className="tabcontainer"> 
             
@@ -26,9 +26,9 @@ const Tabs = () => {
 
                {/* <Bouncebtn text = "About Me" click = {navigate('../../pages/aboutme.js')}/> */}
 
-               <Bouncebtn text = "About Me"  h = "/ReactGrind/pages/aboutme.js" />
-               <Bouncebtn text = "Projects" h = "/ReactGrind/pages/Projects.js" />
-               <Bouncebtn text = "Contact me" h = "/ReactGrind/pages/contactme.js" />
+               <Bouncebtn text = "About Me"  h = "/pages/aboutme.js" />
+               <Bouncebtn text = "Projects" h = "/pages/Projects.js" />
+               <Bouncebtn text = "Contact me" h = "/pages/contactme.js" />
                {/* <Bouncebtn text = "About Me"  h = "../../pages/aboutme.js" />
                <Bouncebtn text = "Projects" h = "../../pages/Projects.js" />
                <Bouncebtn text = "Contact me" h = "../../pages/contactme.js" /> */}
