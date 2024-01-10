@@ -21,12 +21,27 @@
     text-align: center;
     color: white;
   }
-.intro{
+.introhome{
     display: flex;
     flex-direction: column;
     align-items:start;
     justify-content: center;
     gap: 6.5rem;
+    min-width: 500px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+
+
+
+
+
+}
+.introabout{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    gap: 1.5rem;
     min-width: 500px;
     margin-right: 100px;
     flex-wrap: wrap;
@@ -80,7 +95,9 @@ margin-top: 35px;
     font-size: 35px;
     color: white;
     display: inline-block;
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Outfit', sans-serif;
+
     text-align: start;
     margin-right: 10px;
 }

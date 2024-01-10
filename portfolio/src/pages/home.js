@@ -9,7 +9,7 @@ function Home(){
               <Image />
             </div>
 
-            <div className='intro'>
+            <div className='introhome'>
               <Anitext text = "My name is Seojin Park" class = "header"/>
               <Anitext text = "I am a sophomore at San Diego Miramar College" class = "small"/>
               

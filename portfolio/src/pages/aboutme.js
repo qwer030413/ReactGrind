@@ -11,7 +11,7 @@ function Aboutme(){
                 <Aboutpic />
                 </div>
 
-                <div className='intro'>
+                <div className='introabout'>
                 <Anitext text = "About Me" class = "about"/>
                 <text className='aboutm'>{'Hi! My name is Seojin Park, but you can call me Chris. I am a fast learner who loves to code in their free time, and I love learning new things'}</text>
                 <text className='aboutm'>{'I am proficient in Java, Python, C++, Assembly MIPS, CSS, HTML, JavaScript, and React.js'}</text>
