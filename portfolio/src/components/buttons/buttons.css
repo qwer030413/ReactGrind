@@ -29,6 +29,13 @@
     color: white;
     transition-duration: 0.2s;
   }
+
+  .clickbutton{
+    transform: scale(1.2);
+    background-color: rgb(54, 53, 62);
+    color: white;
+    transition-duration: 0.2s;
+  }
  
   .mbtn{
     font-size: 20px;

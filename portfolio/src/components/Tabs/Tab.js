@@ -13,7 +13,14 @@ import { Link } from 'react-router-dom';
 
 
 const Tabs = () => {
-  // const navigate = useNavigate();
+  // const buttonlist = document.querySelectorAll('.btn');
+  //     buttonlist.forEach(btnel => {
+  //         btnel.addEventListener('click', () => {
+  //         document.querySelector('.clickbutton')?.classList.remove('clickbutton');
+  //         btnel.classList.add('clickbutton');
+  //         });
+  //   });
+
 
   return (  
     <nav className = "nav">
@@ -24,9 +31,7 @@ const Tabs = () => {
             
               
                
-               {/* <Bouncebtn text = "About Me" /> */}
-
-               {/* <Bouncebtn text = "About Me" click = {navigate('../../pages/aboutme.js')}/> */}
+               
 
                <Bouncebtn text = "About Me"  h = "/pages/aboutme.js" />
                <Bouncebtn text = "Projects" h = "/pages/Projects.js" />
