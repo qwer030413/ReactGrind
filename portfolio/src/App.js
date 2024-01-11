@@ -11,25 +11,7 @@ import Home from './pages/home.js';
 
 
 function App() {
-  // const navigate = useNavigate();
-
-  // let component;
-  //   switch(window.location.pathname)
-  //   {
-  //     case "/ReactGrind/pages/contactme.js":
-  //       component = <ContactMe />
-  //       break;
-  //     case "/ReactGrind/pages/Projects.js":
-  //       component = <Projects />
-  //       break;
-  //     case "/ReactGrind/pages/aboutme.js":
-  //       component = <Aboutme />
-  //       break;
-  //     case "/ReactGrind":
-  //       component = <Home />
-  //       break;
-
-  //   }
+  
   
 
   
@@ -37,7 +19,6 @@ function App() {
     <>
     <body>
         <Tabs />
-        {/* {component}    */}
         <Routes>
           <Route path = "/" element = {<Home />} />
           <Route path = "/pages/aboutme.js" element = {<Aboutme />} />
