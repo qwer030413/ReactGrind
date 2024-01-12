@@ -5,12 +5,25 @@ import './App.css';
 import Adreet from "./components/image.js";
 import { useState } from 'react';
 import {motion, transform} from "framer-motion";
+import { useRef } from "react";
+
 
 // import Mbutton from "./components/motionbtn.js";
 
 
 
 export default function App() {
+
+  const services = useRef(null);
+  const blog = useRef(null);
+  const contact = useRef(null);
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
   let debounceTimeout = null;
   //store false in popupOpen and create method named setpopupOpen to change its value
   const[popupOpen, setpopupOpen] = useState(false);
@@ -38,7 +51,7 @@ export default function App() {
     <div className = "web">
       <body>
         <section className='blue' >
-          <Hello name = "chris" />
+        <button className='btn' onClick={() => scrollToSection(services)}>Hello</button>;
           <Randomwords  />
           <div className = "curve"></div>
         </section>
@@ -46,7 +59,7 @@ export default function App() {
           <Hello name = "chris" />
           <Randomwords  />
         </section>
-        <section className='cyan'>
+        <section ref={services} className='cyan'>
           <div>
             <motion.button 
             whileHover={{scale: 1.1}}
