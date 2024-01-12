@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&family=Poppins:wght@500&family=Roboto+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&family=Outfit:wght@500;600;700&family=Poppins:wght@500&family=Roboto+Slab&family=Ubuntu:wght@500&display=swap');
 
 form{
     display: flex;
@@ -19,6 +19,8 @@ form{
 }
 .message{
     color:rgb(24, 24, 26);
+    font-family: 'Outfit', sans-serif;
+
 }
 
 .formcontainer{
@@ -68,7 +70,9 @@ h1{
     left:0;
     padding: 5px;
     background-color: cyan;
-    font-family: 'Mukta Malar', sans-serif;
+    /* font-family: 'Mukta Malar', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+
 
 
 }
@@ -80,7 +84,9 @@ h1{
     font-size: 20px;
     resize: none;
     background-color: cyan;
-    font-family: 'Mukta Malar', sans-serif;
+    /* font-family: 'Mukta Malar', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+
 
 
 }
@@ -92,6 +98,8 @@ h1{
     transition: 0.3s;
     transition-timing-function: ease-out;
     pointer-events: none;
+    font-family: 'Outfit', sans-serif;
+
     /* left: 12.5rem; */
     
     
@@ -119,6 +127,9 @@ input:focus ~.labels, input:not(:placeholder-shown) ~.labels{
     background-color: rgb(24, 24, 26);
     color: white;
     /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Outfit', sans-serif;
+
+    
 
     
 }

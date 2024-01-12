@@ -25,14 +25,18 @@
 
 }
 .Name{
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Outfit', sans-serif;
+
     font-weight: bold;
     text-align: start;
     font-size: 20px;
 }
 .description{
     margin-top: 5px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Outfit', sans-serif;
+
+    /* font-family: 'Roboto Slab', serif; */
     /* font-weight: bold; */
 
 }
@@ -46,6 +50,8 @@
 }
 .used{
     margin-top: 5px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Outfit', sans-serif;
+
+    /* font-family: 'Roboto Slab', serif; */
     /* font-weight: bold; */
 }

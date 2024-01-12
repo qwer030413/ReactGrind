@@ -3,16 +3,17 @@ import emailjs from '@emailjs/browser';
 import './contact.css'
 import Anitext from '../headers/animatedText';
 import Mnormal from '../buttons/motion';
-import Success from '../alerts/success';
 
-import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import toast, { Toaster } from 'react-hot-toast';
+
 export const ContactUs = () => {
     
     const [pressed, setPressed] = useState(false);
+    const myRef = useRef(null);
 
     const form = useRef();
-
+   
   
     const sendEmail = (e) => {
       e.preventDefault();
@@ -20,7 +21,10 @@ export const ContactUs = () => {
       emailjs.sendForm('service_sagmm5r', 'template_ebky5f9', form.current, '14UvcvDxKfecep_yS')
         .then((result) => {
             console.log(result.text);
-            setPressed(true);
+            toast.success('Message sent!')
+
+  
+           
           
               
             document.getElementById("fn").value = "";
@@ -30,6 +34,8 @@ export const ContactUs = () => {
 
         }, (error) => {
             console.log(error.text);
+            toast.error("Something is wrong, try again!")
+
         });
     };
    
@@ -60,9 +66,8 @@ export const ContactUs = () => {
                 
                 
                 <div className='button'>
-                    {/* <input type="submit" value="Send" className='submit' /> */}
-                    <Success />
-                    {/* <button type="submit" value="Send" className='submit' onClick={notify}>Send</button> */}
+                    <input type="submit" value="Send" className='submit' />
+                    
                 </div>
 
             </form>
