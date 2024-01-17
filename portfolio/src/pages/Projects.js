@@ -6,7 +6,7 @@ import jet from '../components/cards/jet.jpg';
 import weather from '../components/cards/weatherapp.jpg';
 import list from '../components/cards/todolist.jpg';
 import Anitext from "../components/headers/animatedText";
-
+import pom from "../components/cards/pomodoro.jpg";
 
 
 export default function Projects(){
@@ -31,6 +31,10 @@ export default function Projects(){
                 <Card image = {weather} text = {"Weather App"} 
                 description = {"A weather app that allows the user to search up any city in the world, and giving them the current weather info, and the weather information for 3 days in advance"}
                 used = {"Used: Java, Android Studio, Weather API, XML"}
+                />
+                <Card image = {pom} text = {"Pomodoro(currently working on)"} 
+                description = {"A pomodoro app that gives the user 3 different timers. It also contains a small to-do list under the poomodoro tab. I am planning to make a login feature and use mySQL for the backend"}
+                used = {"Used: React, TypeScript, CSS, mySQL, "}
                 />
             </div>
         

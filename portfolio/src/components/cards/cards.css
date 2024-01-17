@@ -16,7 +16,9 @@
 
 }
 .cardContainer{
-    background-color: cyan;
+    /* background-color: cyan; */
+    color: white;
+    background-color: rgb(46, 44, 56); 
     width: 400px;
     height: 470px;
     border-radius: 15px;
