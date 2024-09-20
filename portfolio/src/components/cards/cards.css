@@ -2,19 +2,15 @@
 
 
 
-.imageContainer img{
+.imageContainer{
     width: 400px;
-    object-fit: contain;
+    height: 300px;
+    object-fit:cover;
     overflow: hidden;
     display: block;
     
 }
-.imageContainer{
-    overflow: hidden;
-    
-    height: 300px;
 
-}
 .cardContainer{
     /* background-color: cyan; */
     color: white;

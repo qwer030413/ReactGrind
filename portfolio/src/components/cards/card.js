@@ -4,10 +4,7 @@ import "./cards.css";
 function Card(value){
     return(
         <motion.div className="cardContainer" whileHover={{scale: 1.05}}>
-            <div className="imageContainer">
-                <img src = {value.image} />
-
-            </div>
+            <img src = {value.image} className="imageContainer"/>
             <div className="textContainer">
                 <div className='Name'>
                     <text>{value.text}</text>
