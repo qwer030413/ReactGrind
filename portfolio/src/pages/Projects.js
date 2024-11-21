@@ -8,7 +8,7 @@ import list from '../components/cards/todolist.jpg';
 import Anitext from "../components/headers/animatedText";
 import pom from "../components/cards/pomodoro.jpg";
 import chat from "../components/cards/chattingApp.jpg";
-
+//testing
 export default function Projects(){
     const description1 = () =>{
         return(<text>{'hello \n my name is\n chris park'}</text>);
